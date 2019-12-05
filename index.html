@@ -22,17 +22,30 @@
 
     <form action="#" method="post">
 
-        <span class="reg_your_login_on_top">Ваш логін:</span>
+        <span class="reg_your_login_on_top">
+            Ваш логін:
+        </span>
 
         <input type="text" name="register_login" class="reg_login"
         placeholder="Наприклад: lolkek12" maxlength="12"> <br>
 
-        <span class="reg_your_pass_on_top">Ваш пароль:</span>
+        <span class="reg_your_pass_on_top">
+            Ваш пароль:
+        </span>
 
         <input type="password" name="register_pass" class="reg_pass"
         placeholder="Наприклад: ******" maxlength="12"> <br>
 
-        <span class="reg_your_name_on_top">Ваше ім'я:</span>
+        <span class="reg_your_email_on_top">
+            Ваша пошта:
+        </span>
+
+        <input type="email" name="register_email" class="reg_email"
+        placeholder="Наприклад: Нова Пошта" maxlength="25"> <br>
+
+        <span class="reg_your_name_on_top">
+            Ваше ім'я:
+        </span>
 
         <input type="text" name="register_name" class="reg_name"
         placeholder="Наприклад: Тамби" maxlength="10"> <br>
@@ -59,25 +72,30 @@
         placeholder="Наприклад: 380-66-316-83-99" maxlength="16"> <br>
 
         <span class="reg_your_reg_age_on_top">
-            Ваш вік:
+            Ваша дата народження:
         </span>
 
-        <input type="text" name="register_age" class="reg_age"
-        placeholder="Наприклад: 20" maxlength="2"> <br> <br>
+        <input type="date" name="register_age" class="reg_age"
+        placeholder="Наприклад: 20" max="80"> <br> <br>
 
         <span class="reg_your_sex_on_top">
             Ваша стать:
         </span>
 
         <input type="radio" name="reg_sex" id="sex_choice_m">
-        <label for="sex_choice_m">М</label>
+
+        <label for="sex_choice_m">
+            М
+        </label>
+
         <input type="radio" name="reg_sex" id="sex_choice_w">
-        <label for="sex_choice_w">Ж</label> <br>
+
+        <label for="sex_choice_w">
+            Ж
+        </label> <br>
 
         <input type="reset" value="Зкинути" class="reset_register">
-
         <input type="submit" value="Зареєструватись" class="reg_send">
-
     </form>
 </body>
 </html>
